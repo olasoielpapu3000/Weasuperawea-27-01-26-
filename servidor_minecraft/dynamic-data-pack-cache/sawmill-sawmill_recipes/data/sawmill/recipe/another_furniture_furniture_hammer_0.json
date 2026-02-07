@@ -1,0 +1,11 @@
+{
+  "group": "logs",
+  "ingredient": {
+    "tag": "minecraft:logs"
+  },
+  "result": {
+    "id": "another_furniture:furniture_hammer",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

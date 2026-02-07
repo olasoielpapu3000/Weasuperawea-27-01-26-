@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:spruce_planks"
+  },
+  "result": {
+    "id": "beautify:spruce_trellis",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}
