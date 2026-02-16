@@ -1,0 +1,8 @@
+{
+  "rangePerLevel": 50,
+  "baseRange": 80,
+  "rangeMultipliers": {
+    "minecraft:netherite_block": 4.0,
+    "minecraft:diamond_block": 2.0
+  }
+}

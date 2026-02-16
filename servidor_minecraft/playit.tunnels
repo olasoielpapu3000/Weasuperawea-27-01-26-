@@ -1,0 +1,112 @@
+{
+  "tcp_alloc": {
+    "allowed": 4,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "agent_over_limit": false,
+      "alloc": {
+        "data": {
+          "assigned_domain": "client-abilities.gl.joinmc.link",
+          "assigned_srv": "client-abilities.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "91ca8f0b-59f1-4828-8a25-b37beb1185c8",
+          "ip_hostname": "27.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 16746,
+          "port_start": 16745,
+          "region": "global",
+          "static_ip4": "147.185.221.27",
+          "static_ip6": "2602:fbaf:0:1::1b",
+          "tunnel_ip": "147.185.221.27"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2025-12-10T21:20:19.656346Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "hostname_verify_level": "NoRawIp",
+      "id": "a7eda32c-978b-4920-9e0f-fcc4ddc3bd54",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "8090a7c8-753b-4eec-babc-81c01f75ce4b",
+          "agent_name": "weadeserver",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    },
+    {
+      "active": true,
+      "agent_over_limit": false,
+      "alloc": {
+        "data": {
+          "assigned_domain": "asia-usb.gl.at.ply.gg",
+          "assigned_srv": null,
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "e3e801ac-619b-4d58-a498-0867ccb3eca2",
+          "ip_hostname": "27.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 1141,
+          "port_start": 1140,
+          "region": "global",
+          "static_ip4": "147.185.221.27",
+          "static_ip6": "2602:fbaf:0:1::1b",
+          "tunnel_ip": "147.185.221.27"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2025-12-10T21:37:44.719562Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "hostname_verify_level": "NoRawIp",
+      "id": "d2df766e-55c6-4e3a-b24b-403b79365661",
+      "name": "unnamed",
+      "origin": {
+        "data": {
+          "agent_id": "8090a7c8-753b-4eec-babc-81c01f75ce4b",
+          "agent_name": "weadeserver",
+          "local_ip": "127.0.0.1",
+          "local_port": 1140
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "udp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": null
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 4,
+    "claimed": 1,
+    "desired": 1
+  }
+}
